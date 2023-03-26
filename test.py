@@ -40,7 +40,7 @@ class DrawApp():
             tk.Button(self.right_frame, text=f"{self.colors[i]}", bg="black", fg="white",
                       width=8, height=4, command=lambda f=self.colors[i]: self.change_brash_color(f)).pack(side=tk.TOP)
 
-    def change_brash_size(self,size):
+    def change_brash_size igor chocolade
         self.brush_size = size * 5
     def change_brash_color(self,color):
         self.brush_color = color
